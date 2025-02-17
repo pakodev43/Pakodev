@@ -16,10 +16,10 @@ const Portfolio = () => {
                 <p className='text-3xl md:text-5xl text-primary'>Pakodev <span className='font-bold'>Portfolio</span></p>
             </div>
 
-            <div className='px-5 md:px-25 flex flex-col gap-30 md:gap-40'>
-                <div className="md:grid grid-cols-2 gap-5 items-center">
-                    <div className='mb-5 md:mb-0'>
-                        <img src={portfolioImage1} alt="" className='md:max-w-xl aspect-[3/2] rounded-2xl' />
+            <div className='px-5 md:px-25 flex flex-col gap-30 md:gap-40 max-w-[105rem] mx-auto'>
+                <div className="md:grid grid-cols-2 gap-5 md:gap-15 items-center">
+                    <div className='mb-5 md:mb-0 md:max-w-xl'>
+                        <img src={portfolioImage1} alt="" className='aspect-[3/2] rounded-2xl' />
                     </div>
                     <div>
                         <p className="mb-5 text-4xl md:text-5xl font-secondary font-semibold">01</p>
@@ -32,9 +32,9 @@ const Portfolio = () => {
                     </div>
                 </div>
                 
-                <div className="md:grid grid-cols-2 gap-5 items-center">
-                    <div className='mb-5 md:mb-0 order-2'>
-                        <img src={portfolioImage2} alt="" className='md:max-w-xl aspect-[3/2] ms-auto rounded-2xl' />
+                <div className="md:grid grid-cols-2 gap-5 md:gap-15 items-center">
+                    <div className='mb-5 md:mb-0 md:max-w-xl ms-auto order-2'>
+                        <img src={portfolioImage2} alt="" className='aspect-[3/2] rounded-2xl' />
                     </div>
                     <div>
                         <p className="mb-5 text-4xl md:text-5xl font-secondary font-semibold">02</p>
@@ -47,9 +47,9 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className="md:grid grid-cols-2 gap-5 items-center">
-                    <div className='mb-5 md:mb-0'>
-                        <img src={portfolioImage3} alt="" className='md:max-w-xl aspect-[3/2] rounded-2xl' />
+                <div className="md:grid grid-cols-2 gap-5 md:gap-15 items-center">
+                    <div className='mb-5 md:mb-0 md:max-w-xl'>
+                        <img src={portfolioImage3} alt="" className='aspect-[3/2] rounded-2xl' />
                     </div>
                     <div>
                         <p className="mb-5 text-4xl md:text-5xl font-secondary font-semibold">03</p>
@@ -62,9 +62,9 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className="md:grid grid-cols-2 gap-5 items-center">
-                    <div className='mb-5 md:mb-0 order-2'>
-                        <img src={portfolioImage4} alt="" className='md:max-w-xl aspect-[3/2] ms-auto rounded-2xl' />
+                <div className="md:grid grid-cols-2 gap-5 md:gap-15 items-center">
+                    <div className='mb-5 md:mb-0 md:max-w-xl ms-auto order-2'>
+                        <img src={portfolioImage4} alt="" className='aspect-[3/2] rounded-2xl' />
                     </div>
                     <div>
                         <p className="mb-5 text-4xl md:text-5xl font-secondary font-semibold">04</p>
