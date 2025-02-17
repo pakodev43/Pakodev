@@ -1,1 +1,1 @@
-My personal website - https://pakodev.vercel.app/
+My personal website - https://pakodevstudio.vercel.app
