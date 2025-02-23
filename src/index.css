@@ -21,8 +21,9 @@
     --color-accent: hsl(0, 0%, 0%);
     --color-neutral: hsl(0, 0%, 75%);
     --color-primary: hsl(120, 100%, 7%);
-
+    
     --color-accent-300: hsl(0, 0%, 20%);
+    --color-primary-300: hsl(120, 100%, 7%, 0.2);
     --color-light: hsl(120, 10%, 95%);
 
     --color-white-400: hsl(0, 0%, 0%);
@@ -33,7 +34,7 @@
 }
   
 .xyz {
-    color: hsl(120, 9%, 90%);
+    color: hsla(120, 10%, 90%, 0.486);
     color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 12%);

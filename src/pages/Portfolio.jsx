@@ -26,6 +26,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="01"
                     Title="Gen Z Knowledge - An educational website"
+                    Stack={[ "HTML", "CSS", "Express.js", "Node.js", "MongoDB" ]}
                     Description="A platform of vast knowledge. Offering courses, has a digital library, and a fruitful blog. Educators and professionals can offer courses to students worldwide, while passionate writers and experts can publish insightful articles on the blog."
                     Link="https://genzknowledge.vercel.app/"
                     RepositoryLink="https://github.com/pakodev43/Gen-Z-Knowledge"
@@ -36,6 +37,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="02"
                     Title="Abode - Real Estate"
+                    Stack={[ "React", "Express", "Node.js", "Tailwind CSS" ]}
                     Description="Buy or sell homes, land, commercial properties, or any type of real estate."
                     Link="https://aboderealestate.vercel.app/"
                     RepositoryLink="https://github.com/pakodev43/Abode"
@@ -45,6 +47,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="03"
                     Title="Jacketers"
+                    Stack={[ "React", "Express", "Node.js", "Tailwind CSS" ]}
                     Description="An E-commerce website for jackets business."
                     Link="https://jacketers.vercel.app/"
                     RepositoryLink="https://github.com/pakodev43/Jacketers"
@@ -55,6 +58,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="04"
                     Title="Abdullah Khan's Portfolio Website"
+                    Stack={[ "HTML", "CSS", "JavaScript" ]}
                     Description="A portfolio / personal website template. Having about, services, portfolio, testimonials, and contact sections."
                     Link="https://pakodev43.github.io/Portfolio-Website-Template-2/"
                     RepositoryLink="https://github.com/pakodev43/Portfolio-Website-Template-2"
@@ -64,6 +68,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="05"
                     Title="Adam's Professional Personal Website"
+                    Stack={[ "HTML", "CSS", "JavaScript" ]}
                     Description="A professional and elegent personal / portfolio website template having multiple sections."
                     Link="https://pakodev43.github.io/Writers-Portfolio-Website-II/"
                     RepositoryLink="https://github.com/pakodev43/Writers-Portfolio-Website-II"
@@ -74,6 +79,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="06"
                     Title="Hiking and Traveling Blog Landing Page"
+                    Stack={[ "HTML", "CSS", "JavaScript" ]}
                     Description="The landing page for a hiking and traveling blog. It has simple animations on the hero section images."
                     Link="https://pakodev43.github.io/Hiking-and-Traveling-Blog-Landing-Page/"
                     RepositoryLink="https://github.com/pakodev43/Hiking-and-Traveling-Blog-Landing-Page"
