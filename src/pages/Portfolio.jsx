@@ -37,7 +37,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="02"
                     Title="Abode - Real Estate"
-                    Stack={[ "React", "Express", "Node.js", "Tailwind CSS" ]}
+                    Stack={[ "React", "Tailwind CSS" ]}
                     Description="Buy or sell homes, land, commercial properties, or any type of real estate."
                     Link="https://aboderealestate.vercel.app/"
                     RepositoryLink="https://github.com/pakodev43/Abode"
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <PortfolioItem
                     Number="03"
                     Title="Jacketers"
-                    Stack={[ "React", "Express", "Node.js", "Tailwind CSS" ]}
+                    Stack={[ "React", "Tailwind CSS" ]}
                     Description="An E-commerce website for jackets business."
                     Link="https://jacketers.vercel.app/"
                     RepositoryLink="https://github.com/pakodev43/Jacketers"
