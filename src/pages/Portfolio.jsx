@@ -46,11 +46,11 @@ const Portfolio = () => {
 
                 <PortfolioItem
                     Number="03"
-                    Title="Plush Wear"
+                    Title="Kaftan"
                     Stack={[ "React", "Tailwind CSS" ]}
                     Description="An E-commerce website for a clothing brand."
-                    Link="https://plushwear.vercel.app/"
-                    RepositoryLink="https://github.com/pakodev43/Plush"
+                    Link="https://kaftanwear.vercel.app/"
+                    RepositoryLink="https://github.com/pakodev43/Kaftan"
                     Image={portfolioImage3}
                     IsOdd
                 />
