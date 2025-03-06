@@ -13,7 +13,7 @@ const Header = () => {
             <li><Link to="/" className='pb-1 hover:border-b-2'>Home</Link></li>
             <li><Link to="/portfolio" className='pb-1 hover:border-b-2'>Portfolio</Link></li>
             <li><a href="https://github.com/pakodev43" className='pb-1 hover:border-b-2'>Github</a></li>
-            <li><a href="mailto:pakodev.info@gmail.com" className='pb-1 hover:border-b-2'>Get a website</a></li>
+            <li><a href="mailto:pakodev.info@gmail.com" target="_blank" className='pb-1 hover:border-b-2'>Get a website</a></li>
           </ul>
         </nav>
   
