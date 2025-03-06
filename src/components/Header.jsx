@@ -12,6 +12,7 @@ const Header = () => {
           <ul className="flex gap-5 md:gap-10 md:font-medium text-2xl md:text-base flex-col md:flex-row pt-23 px-10 md:p-0">
             <li><Link to="/" className='pb-1 hover:border-b-2'>Home</Link></li>
             <li><Link to="/portfolio" className='pb-1 hover:border-b-2'>Portfolio</Link></li>
+            <li><a href="https://github.com/pakodev43" className='pb-1 hover:border-b-2'>Github</a></li>
             <li><a href="mailto:pakodev.info@gmail.com" className='pb-1 hover:border-b-2'>Get a website</a></li>
           </ul>
         </nav>
