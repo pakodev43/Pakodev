@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+    
+    /* --font-secondary: "Poppins", sans-serif; */
+    --font-secondary: "Montserrat", sans-serif;
+    --font-tertiary: "Xanh Mono", monospace;
+    --font-quaternary: "fantasy";
+    /* --font-secondary: "Roslindale Display Condensed", "Times New Roman", sans-serif; */
+
+    --text-mail: calc(3vw + 1rem);
+
+    /* --font-display: "Satoshi", "sans-serif";
+    
+    --breakpoint-3xl: 1920px;
+
+    /* Light Theme */
+    --color-accent: hsl(0, 0%, 0%);
+    --color-neutral: hsl(0, 0%, 75%);
+    --color-primary: hsl(120, 100%, 7%);
+    
+    --color-accent-300: hsl(0, 0%, 20%);
+    --color-primary-300: hsl(120, 100%, 7%, 0.2);
+    --color-light: hsl(120, 10%, 95%);
+
+    --color-light-300: hsl(0, 0%, 20%);
+    --color-light-200: hsla(0, 0%, 100%, 0.85);
+    --color-dark-400: hsl(0, 0%, 0%);
+    --color-dark-300: hsl(0, 0%, 45%);
+
+    /* Dark Theme */
+    --color-accent: hsl(0, 0%, 100%);
+    --color-neutral: hsl(0, 0%, 0%);
+    --color-primary: hsl(120, 100%, 7%);
+    --color-primary: hsl(120, 100%, 28.5%);
+    --color-primarygradient: linear-gradient(0deg, rgba(0,145,0,1) 35%, rgba(153,255,153,0.87718837535014) 100%);
+    --color-primarygradient: linear-gradient(0deg, rgba(0,145,0,1) 0%, rgba(38,172,38,1) 30%, rgba(153,255,153,0.87718837535014) 100%);
+    
+    --color-accent-300: hsl(0, 0%, 80%);
+    --color-primary-300: hsl(120, 100%, 7%, 0.2);
+    --color-light: hsl(0, 0%, 100%);
+
+    --color-light-300: hsl(0, 0%, 80%);
+    --color-light-200: hsla(0, 0%, 0%, 0.85);
+    --color-dark-400: hsl(0, 0%, 100%);
+    --color-dark-300: hsl(0, 0%, 65%);
+    --color-dark-200: hsla(0, 0%, 0%, 0.85);
+  
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--color-accent);
+    background-color: var(--color-neutral);
+    font-family: var(--font-secondary);
+    overflow-x: hidden;
+}
+
+#portfolioItem:hover #hover {
+    display: flex;
+}
+
+#hover:has(input:checked) {
+    display: flex;
+}
+
+#gradient {
+    background: linear-gradient(90deg, rgba(0,145,0,1) 0%, rgb(145, 0, 0) 100%);
+    background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
