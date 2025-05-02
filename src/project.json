@@ -3,7 +3,7 @@
         "name": "genzknowledge",
         "title": "Gen Z Knowledge",
         "description": "The educational web app",
-        "img1": "/src/assets/portfolioImage1.png",
+        "img1": "/assets/portfolioImage1.png",
         "description2": "A platform of vast knowledge. Offering courses, has a digital library, and a fruitful blog. Educators and professionals can offer courses to students worldwide, while passionate writers and experts can publish insightful articles on the blog.",
         "tools": [ "HTML", "CSS", "Express.js", "Node.js", "MongoDB" ],
         "LiveLink": "https://genzknowledge.vercel.app/",
