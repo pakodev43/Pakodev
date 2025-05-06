@@ -132,3 +132,12 @@ body {
     from   { transform: translateX(0%); }
     to { transform: translateX(-50%); }
 }
+
+#star {
+    animation: rotate 3s ease-in-out;
+    animation-timeline: scroll(root);
+}
+
+@keyframes rotate {
+    to { transform: rotate(7200deg); }
+}

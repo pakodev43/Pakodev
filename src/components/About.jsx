@@ -87,7 +87,7 @@ const About = () => {
     <div ref={containerRef} className='md:my-50 max-w-[105rem] mx-auto relative' id="about">
 
       <div className='mx-2.5 md:mx-30'>
-        <div className="w-fit mx-auto mb-20"><svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none"><path d="M18.5 0C18.8612 10.0639 26.9361 18.1388 37 18.5C26.9361 18.8612 18.8612 26.9361 18.5 37C18.1388 26.9361 10.0639 18.8612 0 18.5C10.0639 18.1388 18.1388 10.0639 18.5 0Z" fill="#F5EFE5"/></svg></div>
+        <div className="w-fit mx-auto mb-25 md:mb-40"><svg id="star" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none"><path d="M18.5 0C18.8612 10.0639 26.9361 18.1388 37 18.5C26.9361 18.8612 18.8612 26.9361 18.5 37C18.1388 26.9361 10.0639 18.8612 0 18.5C10.0639 18.1388 18.1388 10.0639 18.5 0Z" fill="#F5EFE5"/></svg></div>
         <p className="ms-5 md:ms-30 mb-3 md:mb-2 text-4xl md:text-7xl font-secondary">Hi!</p>
         <p className="ms-10 md:ms-100 text-4xl md:text-7xl font-secondary">I'm <strong>Bilal</strong></p>
         {/* <p className="md:w-160 my-10 md:my-25 ms-auto text-right">Hi! I'm Bilal. A Pakistan-based full stack web developer, building productive and scaling web sites / apps for enterprises and individuals for 3 and a half years. I started as a full stack developer but my passion lies in creating cool, 3D experiences on the frontend, so I founded Pakodev in pursuit of my goal.</p> */}
