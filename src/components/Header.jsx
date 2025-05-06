@@ -16,11 +16,11 @@ const Header = () => {
         <nav className={topNav ? 'block fixed top-0 right-0 h-full w-full bg-neutral' : 'hidden md:block'}>
           <ul className="md:flex grid h-full gap-15 place-content-center md:gap-10 md:font-medium text-5xl md:text-base flex-col text-center md:flex-row  md:p-0">
             {/* <li><a href="/" className='pb-1 hover:border-b-2'>Home</a></li> */}
-            <li><a href="/#about" className='pb-1 hover:border-b-2' onClick={() => { settopNav(!topNav) }}>About Me</a></li>
-            <li><a href="/#portfolio" className='pb-1 hover:border-b-2' onClick={() => { settopNav(!topNav) }}>Portfolio</a></li>
-            <li><a href="/#tools" className='pb-1 hover:border-b-2' onClick={() => { settopNav(!topNav) }}>My Tools</a></li>
+            <li><a href="/#about" className='pb-1 hover:border-b-2' onClick={() => { settopNav(false) }}>About Me</a></li>
+            <li><a href="/#portfolio" className='pb-1 hover:border-b-2' onClick={() => { settopNav(false) }}>Portfolio</a></li>
+            <li><a href="/#tools" className='pb-1 hover:border-b-2' onClick={() => { settopNav(false) }}>My Tools</a></li>
             {/* <li><a href="https://github.com/pakodev43" target="_blank" className='pb-1 hover:border-b-2'>Github</a></li> */}
-            <li><a href="#contact" className='pb-1 hover:border-b-2' onClick={() => { settopNav(!topNav) }}>Contact Me</a></li>
+            <li><a href="#contact" className='pb-1 hover:border-b-2' onClick={() => { settopNav(false) }}>Contact Me</a></li>
           </ul>
         </nav>
   

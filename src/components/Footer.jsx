@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 const Footer = () => {
   return (
     // <footer className='mt-25 px-5 md:px-30 text-white bg-primary'>
-    <footer className='mt-40 md:mt-30 xl:mt-50 px-5 md:px-30 text-white'>
+    <footer className='mt-30 md:mt-30 xl:mt-50 px-5 md:px-30 text-white'>
 
       {/* <div>
         <div className="pt-15 mb-7 flex gap-5 items-center">

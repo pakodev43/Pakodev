@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='mt-20 mb-60 md:mt-0 md:mb-30 xl:mb-85 max-w-[105rem] mx-auto' id='contact'>
+    <div className='mt-20 md:mt-0 mb-30 md:mb-30 xl:mb-60 max-w-[105rem] mx-auto' id='contact'>
       <div className="mx-5 md:mx-15 xl:mx-30">
           <p className="ms-5 md:ms-35 text-4xl md:text-4xl font-tertiary">Contact Me</p>
           <div className="w-fit mx-auto mt-15 xl:mt-30">
