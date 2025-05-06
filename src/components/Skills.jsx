@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -105,6 +105,13 @@ function Skills() {
             },
         });
     }, { scope: containerRef });
+
+    useEffect(() => {
+        const handleLoad = () => ScrollTrigger.refresh();
+        window.addEventListener("load", handleLoad);
+        return () => window.removeEventListener("load", handleLoad);
+    }, []);
+      
 
   return (
     <div ref={containerRef} className='pt-50 md:mt-100 pb-30 xl:mb-50 md:py-50 max-w-[105rem] mx-5 md:mx-auto' id="tools">
